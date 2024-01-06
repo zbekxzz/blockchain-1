@@ -33,6 +33,7 @@ function getTransactionSender() external view returns (address) {
 function getTransactionReceiver() external view returns (address) {
     return address(this);
 }
+```
 
 ## License
 
